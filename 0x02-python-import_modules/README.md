@@ -2,6 +2,7 @@
 
 [0-add.py](https://github.com/Didimukhtar/alx-higher_level_programming/blob/10a48fb16aa0d3737a8d4b90e52504b7ae0ead9e/0x02-python-import_modules/0-add.py) : A program that imports the function def add(a, b): from the file [add_0.py](https://github.com/Didimukhtar/alx-higher_level_programming/blob/10a48fb16aa0d3737a8d4b90e52504b7ae0ead9e/0x02-python-import_modules/add_0.py) and prints the result of the addition 1 + 2 = 3.
 
+---
 
 [1-calculation.py](https://github.com/Didimukhtar/alx-higher_level_programming/blob/10a48fb16aa0d3737a8d4b90e52504b7ae0ead9e/0x02-python-import_modules/1-calculation.py) : A program that imports functions from the file [calculator_1.py](https://github.com/Didimukhtar/alx-higher_level_programming/blob/10a48fb16aa0d3737a8d4b90e52504b7ae0ead9e/0x02-python-import_modules/calculator_1.py), does some Maths, and prints the result.
 
