@@ -1,21 +1,21 @@
 #!/usr/bin/python3
 
-"""Define a class Square."""
+"""Define a class rectangle."""
 
 
-class Square:
-    """Represent a square."""
+class Rectangle:
+    """Represent a rectangle."""
 
     def __init__(self, size=0):
-        """Initialize a new square.
+        """Initialize a new rectangle.
         Args:
-            size (int): The size of the new square.
+            size (int): The size of the new rectangle.
         """
         self.size = size
 
     @property
     def size(self):
-        """Get/set the current size of the square."""
+        """Get/set the current size of the rectangle."""
         return (self.__size)
 
     @size.setter
@@ -27,29 +27,29 @@ class Square:
         self.__size = value
 
     def area(self):
-        """Return the current area of the square."""
+        """Return the current area of the rectangle."""
         return (self.__size * self.__size)
 
     def __eq__(self, other):
-        """Define the == comparision to a Square."""
+        """Define the == comparision to a rectangle."""
         return self.area() == other.area()
 
     def __ne__(self, other):
-        """Define the != comparison to a Square."""
+        """Define the != comparison to a rectangle."""
         return self.area() != other.area()
 
     def __lt__(self, other):
-        """Define the < comparison to a Square."""
+        """Define the < comparison to a rectangle."""
         return self.area() < other.area()
 
     def __le__(self, other):
-        """Define the <= comparison to a Square."""
+        """Define the <= comparison to a rectangle."""
         return self.area() <= other.area()
 
     def __gt__(self, other):
-        """Define the > comparison to a Square."""
+        """Define the > comparison to a rectangle."""
         return self.area() > other.area()
 
     def __ge__(self, other):
-        """Define the >= compmarison to a Square."""
+        """Define the >= compmarison to a rectangle."""
         return self.area() >= other.area()

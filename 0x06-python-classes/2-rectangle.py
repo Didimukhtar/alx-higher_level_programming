@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 
-"""Define a class Square."""
+"""Define a class rectangle."""
 
 
-class Square:
-    """Represent a square."""
+class Rectangle:
+    """Represent a rectangle."""
 
     def __init__(self, size=0):
-        """Initialize a new Square.
+        """Initialize a new rectangle.
         Args:
-            size (int): The size of the new square.
+            size (int): The size of the new rectangle.
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
