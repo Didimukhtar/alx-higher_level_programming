@@ -1,23 +1,23 @@
 #!/usr/bin/python3
 
-"""Define a class rectangle."""
+"""Define a class square."""
 
 
 class rectangle:
-    """Represent a rectangle."""
+    """Represent a square."""
 
     def __init__(self, size=0, position=(0, 0)):
-        """Initialize a new rectangle.
+        """Initialize a new square.
         Args:
-            size (int): The size of the new rectangle.
-            position (int, int): The position of the new rectangle.
+            size (int): The size of the new square.
+            position (int, int): The position of the new square.
         """
         self.size = size
         self.position = position
 
     @property
     def size(self):
-        """Get/set the current size of the rectangle."""
+        """Get/set the current size of the square."""
         return (self.__size)
 
     @size.setter
@@ -30,7 +30,7 @@ class rectangle:
 
     @property
     def position(self):
-        """Get/set the current position of the rectangle."""
+        """Get/set the current position of the square."""
         return (self.__position)
 
     @position.setter
@@ -43,11 +43,11 @@ class rectangle:
         self.__position = value
 
     def area(self):
-        """Return the current area of the rectangle."""
+        """Return the current area of the square."""
         return (self.__size * self.__size)
 
     def my_print(self):
-        """Print the rectangle with the # character."""
+        """Print the square with the # character."""
         if self.__size == 0:
             print("")
             return
@@ -59,7 +59,7 @@ class rectangle:
             print("")
 
     def __str__(self):
-        """Define the print() representation of a rectangle."""
+        """Define the print() representation of a square."""
         if self.__size != 0:
             [print("") for i in range(0, self.__position[1])]
         for i in range(0, self.__size):
